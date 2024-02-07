@@ -1,6 +1,10 @@
 const cactus = document.querySelector('.cactus')
 const poexali = document.querySelector('.poexali')
 
+document.addEventListener("click", function(event){
+    jump()
+})
+
 document.addEventListener("keydown", function(event){
     jump()
 })
