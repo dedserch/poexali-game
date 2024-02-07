@@ -23,7 +23,8 @@ let isAlive = setInterval(function(){
     let poexaliTop = parseInt(window.getComputedStyle(poexali).getPropertyValue("top"))
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"))
 
-    if(cactusLeft < 50 && cactusLeft > 0 && poexaliTop >= 140){
-        alert("Плохо работаешь")
+    if(cactusLeft < 53 && cactusLeft > 0 && poexaliTop >= 140){
+        confirm("Плохо работаешь")
+        location.reload()
     }
 }, 10)

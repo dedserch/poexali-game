@@ -20,7 +20,7 @@
     position: relative;
     left: 560px;
     top: 112px;
-    animation: cactusMov 1s infinite linear;
+    animation: cactusMov 1.3s infinite linear;
 }
 @keyframes cactusMov {
     0%{
