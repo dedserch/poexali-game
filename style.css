@@ -1,0 +1,54 @@
+.game{
+    height: 200px;
+    width: 600px;
+    border-bottom: 3px solid black;
+    margin: auto;
+}
+.poexali{
+    width: 50px;
+    height: 50px;
+    background-image: url(img/poexali.jpg);
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+}
+.cactus {
+    height: 40px;
+    width: 40px;
+    background-image: url(img/output-onlinepngtools.png);
+    background-size: 40px 40px;
+    position: relative;
+    left: 560px;
+    top: 112px;
+    animation: cactusMov 1s infinite linear;
+}
+@keyframes cactusMov {
+    0%{
+        left: 560px;
+    }
+    100%{
+        left: -40px;
+    }
+}
+
+.jump{
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0%{
+        top: 150px;
+    }
+    30%{
+        top:130px;
+    }
+    50%{
+        top: 80px;
+    }
+    80%{
+        top: 130px;
+    }
+    100%{
+        top:150px;
+    }
+}
