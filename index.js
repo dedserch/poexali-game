@@ -16,7 +16,7 @@ function jump() {
     
     if(poexali != "jump"){
         poexali.classList.add("jump")
-        score.innerHTML = counter++
+        score.innerHTML = ++counter
     }
     setTimeout(function(){
         poexali.classList.remove("jump")   
