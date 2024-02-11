@@ -63,3 +63,10 @@
         top:150px;
     }
 }
+p {
+    position: absolute;
+    left: 468px;
+    top: 80px;
+    text-align: left;
+    font-size: 20px;
+}
